@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TPStorage_Example' do
+  pod 'TPStorage', :path => '../'
+
+  target 'TPStorage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
