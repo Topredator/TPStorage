@@ -7,12 +7,15 @@
 //
 
 #import "TPAppDelegate.h"
+#import <TPStorage/TPStorage.h>
 
 @implementation TPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    TPStorageConfig *config = [TPStorageConfig configName:@"app.sqlite" version:@"0.1"];
+    [TPStorageEngine.storageEngine storageConfig:config];
     return YES;
 }
 

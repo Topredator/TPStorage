@@ -1,0 +1,6 @@
+framework module TPStorage {
+  umbrella header "TPStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}

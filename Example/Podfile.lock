@@ -1,0 +1,33 @@
+PODS:
+  - Asterism (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - TPStorage (1.0.0):
+    - Asterism
+    - FMDB
+
+DEPENDENCIES:
+  - Masonry
+  - TPStorage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Asterism
+    - FMDB
+    - Masonry
+
+EXTERNAL SOURCES:
+  TPStorage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Asterism: b2992aaf4ac2dbc66c3aea3a6412c67e3e689835
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TPStorage: 8d11ef208ad3439b8a1d443276d559727cf7434f
+
+PODFILE CHECKSUM: 1ab937486c95038406cdfcf2a960db9a3a06f83f
+
+COCOAPODS: 1.10.1

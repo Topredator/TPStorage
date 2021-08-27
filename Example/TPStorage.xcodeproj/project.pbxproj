@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1CF354D7A158C2B92D4DAA29 /* Pods_TPStorage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A556B8AF9F090FB3B4A115DF /* Pods_TPStorage_Example.framework */; };
+		5343D57D26D8BBEF00352065 /* TPSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343D57C26D8BBEF00352065 /* TPSchool.m */; };
+		5343D58026D8BD9E00352065 /* TPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343D57F26D8BD9E00352065 /* TPStudent.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		4FCE9BB8B53DE7DFC41D1E61 /* Pods-TPStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPStorage_Example.debug.xcconfig"; path = "Target Support Files/Pods-TPStorage_Example/Pods-TPStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5343D57B26D8BBEF00352065 /* TPSchool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSchool.h; sourceTree = "<group>"; };
+		5343D57C26D8BBEF00352065 /* TPSchool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPSchool.m; sourceTree = "<group>"; };
+		5343D57E26D8BD9E00352065 /* TPStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPStudent.h; sourceTree = "<group>"; };
+		5343D57F26D8BD9E00352065 /* TPStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPStudent.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TPStorage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPStorage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,9 +67,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A556B8AF9F090FB3B4A115DF /* Pods_TPStorage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6EA6096F19E2BE46DC973E4 /* TPStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TPStorage.podspec; path = ../TPStorage.podspec; sourceTree = "<group>"; };
-		C238BB2AB0C540F3FC818709 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C8405B3DA65BE75CE6A01ADE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6EA6096F19E2BE46DC973E4 /* TPStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPStorage.podspec; path = ../TPStorage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C238BB2AB0C540F3FC818709 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C8405B3DA65BE75CE6A01ADE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C99E0535D40A940A99BDE704 /* Pods-TPStorage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPStorage_Tests.release.xcconfig"; path = "Target Support Files/Pods-TPStorage_Tests/Pods-TPStorage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D08ABF5D2F586B25CE3C9BB6 /* Pods-TPStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPStorage_Example.release.xcconfig"; path = "Target Support Files/Pods-TPStorage_Example/Pods-TPStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FCE8FC6A664C4371849EC871 /* Pods_TPStorage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,8 +109,18 @@
 				706CD786E424B612634DDC56 /* Pods-TPStorage_Tests.debug.xcconfig */,
 				C99E0535D40A940A99BDE704 /* Pods-TPStorage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5343D57A26D8BBBA00352065 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5343D57B26D8BBEF00352065 /* TPSchool.h */,
+				5343D57C26D8BBEF00352065 /* TPSchool.m */,
+				5343D57E26D8BD9E00352065 /* TPStudent.h */,
+				5343D57F26D8BD9E00352065 /* TPStudent.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -144,6 +160,7 @@
 		6003F593195388D20070C39A /* Example for TPStorage */ = {
 			isa = PBXGroup;
 			children = (
+				5343D57A26D8BBBA00352065 /* Model */,
 				6003F59C195388D20070C39A /* TPAppDelegate.h */,
 				6003F59D195388D20070C39A /* TPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -258,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +320,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TPStorage_Example/Pods-TPStorage_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Asterism/Asterism.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/TPStorage/TPStorage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Asterism.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPStorage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TPAppDelegate.m in Sources */,
+				5343D57D26D8BBEF00352065 /* TPSchool.m in Sources */,
 				6003F5A7195388D20070C39A /* TPViewController.m in Sources */,
+				5343D58026D8BD9E00352065 /* TPStudent.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

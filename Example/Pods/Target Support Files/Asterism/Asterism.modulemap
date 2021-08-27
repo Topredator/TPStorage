@@ -1,0 +1,6 @@
+framework module Asterism {
+  umbrella header "Asterism-umbrella.h"
+
+  export *
+  module * { export * }
+}
